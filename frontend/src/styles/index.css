@@ -3,37 +3,37 @@
 @tailwind utilities;
 
 /*
- * Shuttle Service theme — warm paper, forest green, serif headlines, squared
- * corners. The shared components (src/components/Sections.jsx, layout/*) only
- * use the semantic classes defined here, so this file is the site's look.
+ * Shuttle Service theme — mint ground, deep teal, white rounded panels with
+ * a thin teal outline, heavy geometric sans headlines. The shared components
+ * (src/components/Sections.jsx, layout/*) only use the semantic classes
+ * defined here, so this file is the site's look.
  */
 
 :root {
   --background: 0 0% 100%;
-  --foreground: 24 10% 10%;
+  --foreground: 173 78% 11%;
   --card: 0 0% 100%;
-  --card-foreground: 24 10% 10%;
+  --card-foreground: 173 78% 11%;
   --popover: 0 0% 100%;
-  --popover-foreground: 24 10% 10%;
-  --primary: 24 10% 10%;
+  --popover-foreground: 173 78% 11%;
+  --primary: 173 78% 11%;
   --primary-foreground: 0 0% 98%;
-  --secondary: 40 30% 95%;
-  --secondary-foreground: 24 10% 10%;
-  --muted: 40 30% 95%;
-  --muted-foreground: 25 6% 40%;
-  --accent: 40 30% 95%;
-  --accent-foreground: 24 10% 10%;
+  --secondary: 168 46% 94%;
+  --secondary-foreground: 173 78% 11%;
+  --muted: 168 46% 94%;
+  --muted-foreground: 173 34% 24%;
+  --accent: 168 46% 94%;
+  --accent-foreground: 173 78% 11%;
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 0 0% 98%;
-  --border: 35 20% 85%;
-  --input: 35 20% 85%;
-  --ring: 142 72% 29%;
-  --radius: 0.375rem;
+  --border: 169 36% 82%;
+  --input: 169 36% 82%;
+  --ring: 174 83% 26%;
+  --radius: 0.75rem;
 }
 
 @layer base {
   body { @apply bg-paper text-ink font-sans; }
-  h1, h2, h3 { @apply font-display; }
 }
 
 @layer components {
@@ -43,88 +43,95 @@
 
   /* Buttons */
   .btn-primary, .btn-accent, .btn-ghost, .btn-outline, .btn-cta-ghost {
-    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 font-semibold rounded-md transition-colors duration-200;
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 font-bold rounded-xl transition-colors duration-200;
   }
   .btn-primary { @apply bg-brand text-white hover:bg-brand-500; }
-  .btn-accent { @apply bg-sun text-white hover:bg-sun-600 shadow-sm; }
+  .btn-accent { @apply bg-brand text-white hover:bg-brand-500; }
   .btn-ghost { @apply border-2 border-ink text-ink hover:bg-ink hover:text-white; }
   .btn-outline { @apply border-2 border-brand text-brand hover:bg-brand hover:text-white; }
-  .btn-cta-ghost { @apply border-2 border-white/40 text-white hover:bg-white/10; }
-  .btn-header { @apply bg-brand hover:bg-brand-500 text-white font-semibold px-5 py-2.5 rounded-md text-sm whitespace-nowrap transition-colors; }
+  .btn-cta-ghost { @apply border-2 border-white/50 text-white hover:bg-white/10; }
+  .cta-band .btn-accent { @apply bg-white text-ink hover:bg-paper-200; }
+  .btn-header { @apply bg-brand hover:bg-brand-500 text-white font-bold px-5 py-2.5 rounded-xl text-sm whitespace-nowrap transition-colors; }
 
   /* Header */
-  .site-header { @apply bg-paper/95 backdrop-blur-md border-b border-paper-300 transition-shadow duration-300; }
-  .site-header.is-scrolled { @apply shadow-sm; }
-  .nav-link { @apply px-3 py-2 text-sm font-medium text-ink-700 whitespace-nowrap border-b-2 border-transparent hover:text-ink transition-colors; }
-  .nav-link.is-active { @apply text-brand border-brand; }
-  .header-phone { @apply items-center gap-2 text-sm font-semibold text-ink whitespace-nowrap hover:text-brand transition-colors; }
-  .menu-toggle { @apply p-2.5 rounded-md text-ink border border-paper-300 bg-white hover:bg-paper-200 transition-colors; }
+  .site-header { @apply bg-paper/95 backdrop-blur-md transition-shadow duration-300; }
+  .site-header.is-scrolled { @apply shadow-sm border-b border-paper-300; }
+  .nav-link { @apply px-3 py-2 text-sm font-bold text-ink-700 whitespace-nowrap rounded-lg hover:text-ink hover:bg-paper-200 transition-colors; }
+  .nav-link.is-active { @apply text-brand-500 bg-paper-200; }
+  .header-phone { @apply items-center gap-2 text-sm font-bold text-ink whitespace-nowrap hover:text-brand transition-colors; }
+  .menu-toggle { @apply p-2.5 rounded-xl text-ink border border-paper-300 bg-white hover:bg-paper-200 transition-colors; }
   .mobile-menu { @apply bg-paper border-t border-paper-300; }
-  .mobile-link { @apply block px-4 py-3 text-sm font-medium text-ink-700 rounded-md hover:bg-paper-200; }
-  .mobile-link.is-active { @apply text-brand bg-brand-50; }
+  .mobile-link { @apply block px-4 py-3 text-sm font-bold text-ink-700 rounded-xl hover:bg-paper-200; }
+  .mobile-link.is-active { @apply text-brand-500 bg-paper-200; }
 
   /* Hero */
-  .hero-surface { @apply bg-paper border-b border-paper-300; }
-  .hero-chip { @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-brand; }
-  .hero-title { @apply font-display font-semibold text-ink leading-[1.08] tracking-tight; }
-  .hero-accent { @apply italic text-brand; }
+  .hero-surface { @apply bg-paper; }
+  .hero-chip { @apply inline-flex items-center gap-2 bg-paper-200 text-brand-600 text-sm font-bold px-3.5 py-1.5 rounded-full; }
+  .hero-title { @apply font-display font-extrabold text-ink leading-[1.05] tracking-tight; }
+  .hero-accent { @apply text-brand; }
   .hero-lead { @apply text-ink-700 leading-relaxed; }
 
   /* Section text */
-  .eyebrow { @apply text-sm font-semibold uppercase tracking-wider text-sun; }
-  .section-title { @apply font-display font-semibold text-ink tracking-tight; }
+  .eyebrow { @apply text-sm font-bold uppercase tracking-wider text-brand; }
+  .section-title { @apply font-display font-extrabold text-ink tracking-tight; }
   .section-lead { @apply text-ink-700 leading-relaxed; }
   .icon-brand { @apply text-brand; }
 
   /* Cards */
-  .card { @apply bg-white border border-paper-300 rounded-lg p-7 transition-colors duration-200; }
-  .band-alt .card { @apply bg-paper; }
+  .card { @apply bg-white border border-paper-300 rounded-2xl p-6 transition-colors duration-200; }
   .card:hover { @apply border-brand; }
   .card-lg { @apply p-8 sm:p-10; }
   .card-link { @apply cursor-pointer; }
-  .card-featured { @apply bg-brand-600 border-brand-600 text-white; }
-  .band-alt .card-featured { @apply bg-brand-600; }
+  .card-featured { @apply bg-ink border-ink text-white; }
   .card-featured .card-title { @apply text-white; }
   .card-featured .card-text { @apply text-white/80; }
   .card-featured .card-action { @apply text-white; }
-  .card-icon { @apply w-12 h-12 rounded-md bg-brand-50 text-brand flex items-center justify-center mb-5; }
+  .card-icon { @apply w-12 h-12 rounded-xl bg-paper-200 text-brand flex items-center justify-center mb-5; }
   .card-icon-solid { @apply bg-brand text-white; }
   .card-featured .card-icon { @apply bg-white/15 text-white; }
-  .card-title { @apply font-display text-xl font-semibold text-ink mb-2; }
+  .card-title { @apply font-display text-xl font-extrabold text-ink mb-2; }
   .card-text { @apply text-ink-700 leading-relaxed; }
-  .card-action { @apply inline-flex items-center gap-2 font-semibold text-brand transition-all; }
+  .card-action { @apply inline-flex items-center gap-2 font-bold text-brand transition-all; }
   .check-row { @apply flex items-start gap-2.5 text-ink-700; }
   .check-row svg { @apply text-brand mt-0.5; }
-  .pill { @apply inline-flex items-center gap-2 bg-white border border-paper-300 rounded-md px-4 py-2 text-sm font-medium text-ink-700; }
-  .photo { @apply rounded-lg border border-paper-300; }
+  .pill { @apply inline-flex items-center gap-2 bg-white border border-paper-300 rounded-full px-4 py-2 text-sm font-bold text-ink-700; }
+  .photo { @apply rounded-3xl border border-paper-300; }
 
   /* Steps */
-  .step { @apply border-t-2 border-ink pt-6; }
-  .step-number { @apply font-display text-4xl font-semibold italic text-brand mb-3; }
-  .step-title { @apply font-display text-xl font-semibold text-ink mb-2; }
+  .step { @apply bg-white border border-paper-300 rounded-2xl p-6; }
+  .step-number { @apply inline-flex items-center justify-center w-9 h-9 rounded-full bg-brand text-white font-extrabold mb-4; }
+  .step-title { @apply font-display text-lg font-extrabold text-ink mb-2; }
   .step-text { @apply text-ink-700 leading-relaxed; }
 
+  /* Home: route card */
+  .route-card { @apply bg-white border border-paper-300 rounded-3xl p-6 sm:p-7; }
+  .route-step { @apply flex items-start gap-3.5; }
+  .route-dot { @apply shrink-0 inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand text-white text-sm font-extrabold; }
+  .way-card { @apply flex items-start gap-4 bg-white border border-paper-300 rounded-2xl p-5 hover:border-brand transition-colors; }
+  .way-icon { @apply shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-paper-200 text-brand; }
+
   /* FAQ */
-  .faq-item { @apply border-b border-paper-300 py-5; }
-  .faq-item summary { @apply font-display text-lg font-semibold text-ink; }
+  .faq-item { @apply bg-white border border-paper-300 rounded-2xl px-6 py-5; }
+  .band-alt .faq-item { @apply bg-paper; }
+  .faq-item summary { @apply text-lg font-bold text-ink; }
   .faq-chevron { @apply text-brand; }
   .faq-answer { @apply text-ink-700 leading-relaxed; }
 
   /* Areas (unused on this site, kept for the shared templates) */
-  .area-list { @apply border border-paper-300 rounded-lg overflow-hidden divide-y divide-paper-300 bg-white; }
+  .area-list { @apply border border-paper-300 rounded-2xl overflow-hidden divide-y divide-paper-300 bg-white; }
   .area-row { @apply flex items-center justify-between gap-4 px-6 py-5 text-ink hover:bg-brand-50; }
-  .area-chip { @apply flex items-center justify-between gap-3 bg-white border border-paper-300 rounded-md px-5 py-4 font-semibold text-ink hover:border-brand; }
+  .area-chip { @apply flex items-center justify-between gap-3 bg-white border border-paper-300 rounded-xl px-5 py-4 font-bold text-ink hover:border-brand; }
 
   /* CTA band, footer, mobile bar */
   .cta-band { @apply bg-brand-600 text-white; }
-  .cta-title { @apply font-display font-semibold text-white tracking-tight; }
-  .cta-text { @apply text-white/80; }
-  .footer-surface { @apply bg-ink text-stone-300; }
+  .cta-title { @apply font-display font-extrabold text-white tracking-tight; }
+  .cta-text { @apply text-white/85; }
+  .footer-surface { @apply bg-ink text-teal-50/80; }
   .footer-strong { @apply text-white; }
-  .footer-muted { @apply text-stone-400; }
-  .footer-link { @apply text-stone-300 hover:text-white transition-colors; }
+  .footer-muted { @apply text-teal-50/70; }
+  .footer-link { @apply text-teal-50/80 hover:text-white transition-colors; }
   .footer-icon { @apply text-brand-300; }
   .footer-rule { @apply border-t border-white/10; }
   .sticky-bar { @apply bg-paper/95 backdrop-blur-md border-t border-paper-300 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]; }
-  .sticky-call { @apply rounded-md border-2 border-ink text-ink; }
+  .sticky-call { @apply rounded-xl border-2 border-ink text-ink; }
 }
