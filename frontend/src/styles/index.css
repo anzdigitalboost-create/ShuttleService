@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Shuttle Service theme — warm paper, forest green, serif headlines, squared
+ * corners. The shared components (src/components/Sections.jsx, layout/*) only
+ * use the semantic classes defined here, so this file is the site's look.
+ */
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 24 10% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 24 10% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 24 10% 10%;
+  --primary: 24 10% 10%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 40 30% 95%;
+  --secondary-foreground: 24 10% 10%;
+  --muted: 40 30% 95%;
+  --muted-foreground: 25 6% 40%;
+  --accent: 40 30% 95%;
+  --accent-foreground: 24 10% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 35 20% 85%;
+  --input: 35 20% 85%;
+  --ring: 142 72% 29%;
+  --radius: 0.375rem;
+}
+
+@layer base {
+  body { @apply bg-paper text-ink font-sans; }
+  h1, h2, h3 { @apply font-display; }
+}
+
+@layer components {
+  .section-padding { @apply px-4 sm:px-6 lg:px-8 py-16 sm:py-24; }
+  .container-max { @apply max-w-6xl mx-auto; }
+  .band-alt { @apply bg-white border-y border-paper-300; }
+
+  /* Buttons */
+  .btn-primary, .btn-accent, .btn-ghost, .btn-outline, .btn-cta-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-7 py-3.5 font-semibold rounded-md transition-colors duration-200;
+  }
+  .btn-primary { @apply bg-brand text-white hover:bg-brand-500; }
+  .btn-accent { @apply bg-sun text-white hover:bg-sun-600 shadow-sm; }
+  .btn-ghost { @apply border-2 border-ink text-ink hover:bg-ink hover:text-white; }
+  .btn-outline { @apply border-2 border-brand text-brand hover:bg-brand hover:text-white; }
+  .btn-cta-ghost { @apply border-2 border-white/40 text-white hover:bg-white/10; }
+  .btn-header { @apply bg-brand hover:bg-brand-500 text-white font-semibold px-5 py-2.5 rounded-md text-sm whitespace-nowrap transition-colors; }
+
+  /* Header */
+  .site-header { @apply bg-paper/95 backdrop-blur-md border-b border-paper-300 transition-shadow duration-300; }
+  .site-header.is-scrolled { @apply shadow-sm; }
+  .nav-link { @apply px-3 py-2 text-sm font-medium text-ink-700 whitespace-nowrap border-b-2 border-transparent hover:text-ink transition-colors; }
+  .nav-link.is-active { @apply text-brand border-brand; }
+  .header-phone { @apply items-center gap-2 text-sm font-semibold text-ink whitespace-nowrap hover:text-brand transition-colors; }
+  .menu-toggle { @apply p-2.5 rounded-md text-ink border border-paper-300 bg-white hover:bg-paper-200 transition-colors; }
+  .mobile-menu { @apply bg-paper border-t border-paper-300; }
+  .mobile-link { @apply block px-4 py-3 text-sm font-medium text-ink-700 rounded-md hover:bg-paper-200; }
+  .mobile-link.is-active { @apply text-brand bg-brand-50; }
+
+  /* Hero */
+  .hero-surface { @apply bg-paper border-b border-paper-300; }
+  .hero-chip { @apply inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-brand; }
+  .hero-title { @apply font-display font-semibold text-ink leading-[1.08] tracking-tight; }
+  .hero-accent { @apply italic text-brand; }
+  .hero-lead { @apply text-ink-700 leading-relaxed; }
+
+  /* Section text */
+  .eyebrow { @apply text-sm font-semibold uppercase tracking-wider text-sun; }
+  .section-title { @apply font-display font-semibold text-ink tracking-tight; }
+  .section-lead { @apply text-ink-700 leading-relaxed; }
+  .icon-brand { @apply text-brand; }
+
+  /* Cards */
+  .card { @apply bg-white border border-paper-300 rounded-lg p-7 transition-colors duration-200; }
+  .band-alt .card { @apply bg-paper; }
+  .card:hover { @apply border-brand; }
+  .card-lg { @apply p-8 sm:p-10; }
+  .card-link { @apply cursor-pointer; }
+  .card-featured { @apply bg-brand-600 border-brand-600 text-white; }
+  .band-alt .card-featured { @apply bg-brand-600; }
+  .card-featured .card-title { @apply text-white; }
+  .card-featured .card-text { @apply text-white/80; }
+  .card-featured .card-action { @apply text-white; }
+  .card-icon { @apply w-12 h-12 rounded-md bg-brand-50 text-brand flex items-center justify-center mb-5; }
+  .card-icon-solid { @apply bg-brand text-white; }
+  .card-featured .card-icon { @apply bg-white/15 text-white; }
+  .card-title { @apply font-display text-xl font-semibold text-ink mb-2; }
+  .card-text { @apply text-ink-700 leading-relaxed; }
+  .card-action { @apply inline-flex items-center gap-2 font-semibold text-brand transition-all; }
+  .check-row { @apply flex items-start gap-2.5 text-ink-700; }
+  .check-row svg { @apply text-brand mt-0.5; }
+  .pill { @apply inline-flex items-center gap-2 bg-white border border-paper-300 rounded-md px-4 py-2 text-sm font-medium text-ink-700; }
+  .photo { @apply rounded-lg border border-paper-300; }
+
+  /* Steps */
+  .step { @apply border-t-2 border-ink pt-6; }
+  .step-number { @apply font-display text-4xl font-semibold italic text-brand mb-3; }
+  .step-title { @apply font-display text-xl font-semibold text-ink mb-2; }
+  .step-text { @apply text-ink-700 leading-relaxed; }
+
+  /* FAQ */
+  .faq-item { @apply border-b border-paper-300 py-5; }
+  .faq-item summary { @apply font-display text-lg font-semibold text-ink; }
+  .faq-chevron { @apply text-brand; }
+  .faq-answer { @apply text-ink-700 leading-relaxed; }
+
+  /* Areas (unused on this site, kept for the shared templates) */
+  .area-list { @apply border border-paper-300 rounded-lg overflow-hidden divide-y divide-paper-300 bg-white; }
+  .area-row { @apply flex items-center justify-between gap-4 px-6 py-5 text-ink hover:bg-brand-50; }
+  .area-chip { @apply flex items-center justify-between gap-3 bg-white border border-paper-300 rounded-md px-5 py-4 font-semibold text-ink hover:border-brand; }
+
+  /* CTA band, footer, mobile bar */
+  .cta-band { @apply bg-brand-600 text-white; }
+  .cta-title { @apply font-display font-semibold text-white tracking-tight; }
+  .cta-text { @apply text-white/80; }
+  .footer-surface { @apply bg-ink text-stone-300; }
+  .footer-strong { @apply text-white; }
+  .footer-muted { @apply text-stone-400; }
+  .footer-link { @apply text-stone-300 hover:text-white transition-colors; }
+  .footer-icon { @apply text-brand-300; }
+  .footer-rule { @apply border-t border-white/10; }
+  .sticky-bar { @apply bg-paper/95 backdrop-blur-md border-t border-paper-300 shadow-[0_-4px_20px_rgba(0,0,0,0.08)]; }
+  .sticky-call { @apply rounded-md border-2 border-ink text-ink; }
+}
