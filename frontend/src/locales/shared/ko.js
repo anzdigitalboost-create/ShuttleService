@@ -72,7 +72,7 @@ export default {
     "terms": "이용 약관",
     "privacy": "개인정보 처리방침",
     "rights": "© {{year}} {{brand}}. All rights reserved.",
-    "operated": "Book A Ride NZ 운영 — 예약, 결제 및 확인 안내는 Book A Ride NZ에서 처리합니다."
+    "operated": "Gap Digital 운영 — 예약, 결제 및 확인."
   },
   "about": {
     "eyebrow": "저희는",

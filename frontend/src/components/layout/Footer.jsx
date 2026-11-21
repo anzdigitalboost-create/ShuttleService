@@ -77,10 +77,7 @@ export default function Footer() {
 
         <div className="footer-rule pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs footer-muted">
           <p>{t('footer.rights', { year: new Date().getFullYear() })}</p>
-          <p>
-            {t('footer.operated')}{' '}
-            <a href="https://www.bookaride.co.nz" className="footer-link underline underline-offset-2">bookaride.co.nz</a>
-          </p>
+          <p>{t('footer.operated')}</p>
         </div>
       </div>
     </footer>
