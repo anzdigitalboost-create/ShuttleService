@@ -72,7 +72,7 @@ export default {
     "terms": "Conditions générales",
     "privacy": "Politique de confidentialité",
     "rights": "© {{year}} {{brand}}. Tous droits réservés.",
-    "operated": "Exploité par Book A Ride NZ : les réservations, paiements et confirmations sont gérés par Book A Ride NZ."
+    "operated": "Exploité par Gap Digital — réservations, paiements et confirmations."
   },
   "about": {
     "eyebrow": "Qui nous sommes",

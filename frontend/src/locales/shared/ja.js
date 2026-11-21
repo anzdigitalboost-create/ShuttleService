@@ -72,7 +72,7 @@ export default {
     "terms": "利用規約",
     "privacy": "プライバシーポリシー",
     "rights": "© {{year}} {{brand}}. All rights reserved.",
-    "operated": "運営：Book A Ride NZ — ご予約、お支払い、確認のご連絡は Book A Ride NZ が行います。"
+    "operated": "運営：Gap Digital — ご予約、お支払い、確認。"
   },
   "about": {
     "eyebrow": "私たちについて",

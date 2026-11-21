@@ -72,7 +72,7 @@ export default {
     "terms": "条款与条件",
     "privacy": "隐私政策",
     "rights": "© {{year}} {{brand}} 版权所有。",
-    "operated": "由 Book A Ride NZ 运营 — 预订、付款及确认均由 Book A Ride NZ 处理。"
+    "operated": "由 Gap Digital 运营 — 预订、付款及确认。"
   },
   "about": {
     "eyebrow": "我们是谁",
