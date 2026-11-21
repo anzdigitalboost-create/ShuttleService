@@ -32,3 +32,5 @@ npm install
 npm run dev      # /api is proxied to the live platform
 npm run build    # checks the booking mirror and the locales, builds, prerenders
 ```
+
+Preview deployments: every branch other than `main` gets its own preview URL on Vercel.
