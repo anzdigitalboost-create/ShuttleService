@@ -48,7 +48,7 @@ are this site's own.
   (`.card`, `.hero-surface`, `.btn-accent`, …). **The look lives in
   `src/styles/index.css` and `tailwind.config.js`** — restyle there, not by
   adding colour utilities to shared components.
-- Theme (owner's pick, design 08, 2026-11-21): mint ground (`paper`), deep teal `brand`, dark teal `ink`, white rounded panels with a thin teal outline, Manrope throughout, light header (`darkHeader: false`). The home hero pairs the copy with a route card listing the booking steps.
+- Theme (owner's pick, design 08, 2026-11-21): mint ground (`paper`), deep teal `brand`, dark teal `ink`, white rounded panels with a thin teal outline, Manrope throughout, light header (`darkHeader: false`). The home hero pairs the copy with a route card listing the booking steps. The home hero copy (headline, subtitle, three steps, three service cards) is the wording of that design and was approved by the owner.
 - Logo: `src/components/Logo.jsx` (mark matches `public/favicon.svg`).
 
 ## Brand and content rules
