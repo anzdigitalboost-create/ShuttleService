@@ -80,9 +80,9 @@ export default {
     "accent": "について",
     "lead": "オークランドのための分かりやすいシャトルサービス。貸切車両、固定料金、約1分で完了するオンライン予約。",
     "storyEyebrow": "私たちの歩み",
-    "storyTitle": "運営は Book A Ride NZ",
-    "p1": "{{brand}} は、オークランドの送迎会社 Book A Ride NZ が運営しています。ドライバー、車両、予約システムは、Book A Ride の空港・クルーズ・貸切送迎と同じものです。",
-    "p2": "そのため、予約確認と領収書は Book A Ride NZ から届き、当サイトに表示される Google レビューも Book A Ride のレビューです。",
+    "storyTitle": "運営は Gap Digital",
+    "p1": "{{brand}} は Gap Digital が運営しています。空港・クルーズ・貸切送迎は、同じドライバー、車両、予約システムで対応しています。",
+    "p2": "予約確認と領収書は現在 Book A Ride NZ の名義で届き、当サイトに表示される Google レビューも Book A Ride NZ のレビューです。",
     "p3": "当サイトの目的はひとつ。オークランドのどなたにも、シャトルの料金を素早く明確にお伝えし、簡単に予約していただくことです。",
     "imgAlt": "{{brand}} のトヨタ・ハイエース ハイルーフバン",
     "valuesEyebrow": "私たちの取り組み",
@@ -120,7 +120,7 @@ export default {
     "locText": "オークランド地方全域、クルーズターミナル、ホビット村に対応",
     "hoursTitle": "シャトルは24時間運行",
     "hoursText": "早朝便、深夜到着、祝日も対応",
-    "operated": "{{brand}} は Book A Ride NZ が運営しているため、返信や確認のご連絡は Book A Ride NZ からお送りします。"
+    "operated": "{{brand}} は Gap Digital が運営しています。返信や確認のご連絡は、現在 Book A Ride NZ の名義でお送りします。"
   },
   "notFound": {
     "title": "このページはターミナルを出発しました",
@@ -134,7 +134,7 @@ export default {
   "meta": {
     "about": {
       "title": "{{brand}} について",
-      "desc": "{{brand}} は Book A Ride NZ が運営するオークランドの空港・貸切シャトルサービス。地元のドライバー、新型トヨタ・ハイエース、固定料金のオンライン予約。"
+      "desc": "{{brand}} は Gap Digital が運営するオークランドの空港・貸切シャトルサービス。地元のドライバー、新型トヨタ・ハイエース、固定料金のオンライン予約。"
     },
     "contact": {
       "title": "{{brand}} へのお問い合わせ",
@@ -142,11 +142,11 @@ export default {
     },
     "terms": {
       "title": "利用規約",
-      "desc": "Book A Ride NZ が運営する {{brand}} のご予約条件：お支払い、キャンセルと返金、待機時間、お荷物、責任について。"
+      "desc": "Gap Digital が運営する {{brand}} のご予約条件：お支払い、キャンセルと返金、待機時間、お荷物、責任について。"
     },
     "privacy": {
       "title": "プライバシーポリシー",
-      "desc": "{{brand}} と運営会社 Book A Ride NZ による個人情報の収集、利用、保護について。"
+      "desc": "{{brand}} と運営会社 Gap Digital による個人情報の収集、利用、保護について。"
     }
   }
 }

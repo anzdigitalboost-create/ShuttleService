@@ -54,9 +54,11 @@ are this site's own.
 ## Brand and content rules
 
 - Name: **Shuttle Service**. The footer line reads "Operated by Gap Digital" (owner's
-  wording, 2026-11-21 — do not change it back). Disclose "operated by Book A
-  Ride NZ" in About, Contact, Terms and Privacy — confirmation emails and Stripe receipts
-  come from Book A Ride NZ, and the Google reviews shown are Book A Ride's.
+  wording, 2026-11-21 — do not change it back). The operator named on every page (About, Contact, Terms,
+  Privacy, meta descriptions, structured data) is **Gap Digital** (owner, 2026-11-21).
+  Confirmation emails and Stripe receipts still come from Book A Ride NZ, and the
+  Google reviews shown are Book A Ride NZ's — the About and Contact pages say so
+  in one sentence each; keep that sentence accurate until the platform changes.
 - Phone: 022 355 2808. Email: info@bookaride.co.nz.
 - Keyword focus: "shuttle service", "private shuttle hire", "group shuttle hire". Copy must stay distinct from the sibling
   storefronts and from bookaride.co.nz — do not paste their page copy here

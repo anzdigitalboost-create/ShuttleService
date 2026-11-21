@@ -80,9 +80,9 @@ export default {
     "accent": "{{brand}}",
     "lead": "A straightforward shuttle service for Auckland: private vehicles, fixed prices and online booking that takes about a minute.",
     "storyEyebrow": "Our story",
-    "storyTitle": "Operated by Book A Ride NZ",
-    "p1": "{{brand}} is run by Book A Ride NZ, an Auckland transfer company. The drivers, vehicles and booking system are the same ones behind Book A Ride's airport, cruise and private transfers.",
-    "p2": "That is why your booking confirmation and receipt arrive from Book A Ride NZ, and why the Google reviews shown on this site are Book A Ride's reviews.",
+    "storyTitle": "Operated by Gap Digital",
+    "p1": "{{brand}} is operated by Gap Digital. The same drivers, vehicles and booking system handle its airport, cruise and private transfers.",
+    "p2": "Your booking confirmation and receipt are currently sent under the name Book A Ride NZ, and the Google reviews shown on this site are Book A Ride NZ's reviews.",
     "p3": "We built this site to do one thing well: give anyone in Auckland a fast, clear price for a shuttle and a simple way to book it.",
     "imgAlt": "Toyota Hiace high-roof van from the {{brand}} fleet",
     "valuesEyebrow": "How we work",
@@ -120,7 +120,7 @@ export default {
     "locText": "Serving the whole Auckland region, the cruise terminals and Hobbiton",
     "hoursTitle": "Shuttles run 24/7",
     "hoursText": "Early flights, late arrivals and public holidays included",
-    "operated": "{{brand}} is operated by Book A Ride NZ, so replies and confirmations come from Book A Ride NZ."
+    "operated": "{{brand}} is operated by Gap Digital. Replies and confirmations are currently sent under the name Book A Ride NZ."
   },
   "notFound": {
     "title": "This page has left the terminal",
@@ -134,7 +134,7 @@ export default {
   "meta": {
     "about": {
       "title": "About {{brand}}",
-      "desc": "{{brand}} is the Auckland airport and private shuttle service operated by Book A Ride NZ — local drivers, modern Toyota Hiace vans and online booking with fixed prices."
+      "desc": "{{brand}} is the Auckland airport and private shuttle service operated by Gap Digital — local drivers, modern Toyota Hiace vans and online booking with fixed prices."
     },
     "contact": {
       "title": "Contact {{brand}}",
@@ -142,11 +142,11 @@ export default {
     },
     "terms": {
       "title": "Terms & Conditions",
-      "desc": "Booking terms for {{brand}}, operated by Book A Ride NZ: payment, cancellation and refunds, waiting time, luggage and liability."
+      "desc": "Booking terms for {{brand}}, operated by Gap Digital: payment, cancellation and refunds, waiting time, luggage and liability."
     },
     "privacy": {
       "title": "Privacy Policy",
-      "desc": "How {{brand}} and its operator Book A Ride NZ collect, use and protect your personal information."
+      "desc": "How {{brand}} and its operator Gap Digital collect, use and protect your personal information."
     }
   }
 }

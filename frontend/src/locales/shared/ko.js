@@ -80,9 +80,9 @@ export default {
     "accent": "소개",
     "lead": "오클랜드를 위한 간단명료한 셔틀 서비스: 전용 차량, 고정 요금, 약 1분이면 끝나는 온라인 예약.",
     "storyEyebrow": "우리의 이야기",
-    "storyTitle": "Book A Ride NZ 운영",
-    "p1": "{{brand}}는 오클랜드의 이동 서비스 회사 Book A Ride NZ가 운영합니다. 기사, 차량, 예약 시스템은 Book A Ride의 공항·크루즈·전용 이동 서비스와 동일합니다.",
-    "p2": "그래서 예약 확인서와 영수증이 Book A Ride NZ 이름으로 발송되며, 이 사이트에 표시되는 Google 리뷰도 Book A Ride의 리뷰입니다.",
+    "storyTitle": "Gap Digital 운영",
+    "p1": "{{brand}}는 Gap Digital이 운영합니다. 공항·크루즈·전용 이동 서비스는 동일한 기사, 차량, 예약 시스템으로 운영됩니다.",
+    "p2": "예약 확인서와 영수증은 현재 Book A Ride NZ 이름으로 발송되며, 이 사이트에 표시되는 Google 리뷰도 Book A Ride NZ의 리뷰입니다.",
     "p3": "이 사이트는 한 가지를 잘하기 위해 만들었습니다. 오클랜드의 누구나 셔틀 요금을 빠르고 분명하게 확인하고 간편하게 예약할 수 있도록 하는 것입니다.",
     "imgAlt": "{{brand}} 차량인 토요타 하이에이스 하이루프 밴",
     "valuesEyebrow": "일하는 방식",
@@ -120,7 +120,7 @@ export default {
     "locText": "오클랜드 전역, 크루즈 터미널, 호비튼 운행",
     "hoursTitle": "셔틀은 24시간 운행",
     "hoursText": "이른 항공편, 늦은 도착, 공휴일 포함",
-    "operated": "{{brand}}는 Book A Ride NZ가 운영하므로 답변과 확인 안내는 Book A Ride NZ에서 발송됩니다."
+    "operated": "{{brand}}는 Gap Digital이 운영합니다. 답변과 확인 안내는 현재 Book A Ride NZ 이름으로 발송됩니다."
   },
   "notFound": {
     "title": "이 페이지는 터미널을 떠났습니다",
@@ -134,7 +134,7 @@ export default {
   "meta": {
     "about": {
       "title": "{{brand}} 소개",
-      "desc": "{{brand}}는 Book A Ride NZ가 운영하는 오클랜드 공항 및 전용 셔틀 서비스입니다. 현지 기사, 신형 토요타 하이에이스 밴, 고정 요금 온라인 예약."
+      "desc": "{{brand}}는 Gap Digital이 운영하는 오클랜드 공항 및 전용 셔틀 서비스입니다. 현지 기사, 신형 토요타 하이에이스 밴, 고정 요금 온라인 예약."
     },
     "contact": {
       "title": "{{brand}} 문의",
@@ -142,11 +142,11 @@ export default {
     },
     "terms": {
       "title": "이용 약관",
-      "desc": "Book A Ride NZ가 운영하는 {{brand}}의 예약 약관: 결제, 취소 및 환불, 대기 시간, 수하물, 책임."
+      "desc": "Gap Digital이 운영하는 {{brand}}의 예약 약관: 결제, 취소 및 환불, 대기 시간, 수하물, 책임."
     },
     "privacy": {
       "title": "개인정보 처리방침",
-      "desc": "{{brand}}와 운영사 Book A Ride NZ가 개인정보를 수집, 이용, 보호하는 방법."
+      "desc": "{{brand}}와 운영사 Gap Digital이 개인정보를 수집, 이용, 보호하는 방법."
     }
   }
 }

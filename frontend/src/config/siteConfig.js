@@ -15,7 +15,7 @@ const siteConfig = {
   email: EMAIL,
   phone: PHONE_TEL,
   phoneDisplay: PHONE_DISPLAY,
-  operator: 'Book A Ride NZ',
+  operator: 'Gap Digital',
   tagline: 'Private and Group Shuttle Hire in Auckland',
   description:
     'Shuttle Service offers private and group shuttle hire across Auckland, including airport, cruise and event transfers. Fixed prices, 24/7. Book online in 60 seconds.',

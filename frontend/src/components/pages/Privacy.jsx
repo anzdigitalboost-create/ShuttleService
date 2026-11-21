@@ -16,7 +16,7 @@ export default function Privacy() {
         <div className="prose prose-gray max-w-none space-y-8 text-slate-600 leading-relaxed">
 
           <Section title="1. Who We Are">
-            <p>{siteConfig.siteName} is operated by Book A Ride NZ ("we", "us", "our"), a private transfer and airport shuttle service based in Auckland, New Zealand. This website is <a href={siteConfig.siteUrl} className="text-brand underline underline-offset-2 hover:no-underline">{siteConfig.domain}</a>. Bookings made here are processed and stored by Book A Ride NZ.</p>
+            <p>{siteConfig.siteName} is operated by Gap Digital ("we", "us", "our"), based in Auckland, New Zealand. This website is <a href={siteConfig.siteUrl} className="text-brand underline underline-offset-2 hover:no-underline">{siteConfig.domain}</a>. Bookings made here are processed and stored by Gap Digital.</p>
           </Section>
 
           <Section title="2. Information We Collect">
@@ -88,7 +88,7 @@ export default function Privacy() {
           </Section>
 
           <div className="pt-6 border-t border-slate-200 text-sm text-slate-500">
-            <p>{siteConfig.siteName} · operated by Book A Ride NZ · Auckland, New Zealand</p>
+            <p>{siteConfig.siteName} · operated by Gap Digital · Auckland, New Zealand</p>
           </div>
         </div>
       </div>
