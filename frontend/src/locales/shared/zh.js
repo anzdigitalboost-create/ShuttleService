@@ -80,9 +80,9 @@ export default {
     "accent": "{{brand}}",
     "lead": "一项简单直接的奥克兰接送服务：私人车辆、固定价格，一分钟左右即可完成在线预订。",
     "storyEyebrow": "我们的故事",
-    "storyTitle": "由 Book A Ride NZ 运营",
-    "p1": "{{brand}} 由奥克兰本地接送公司 Book A Ride NZ 运营。司机、车辆和预订系统，与 Book A Ride 的机场、邮轮及私人接送业务完全相同。",
-    "p2": "因此您的预订确认和收据由 Book A Ride NZ 发出，本站显示的 Google 评价也是 Book A Ride 的评价。",
+    "storyTitle": "由 Gap Digital 运营",
+    "p1": "{{brand}} 由 Gap Digital 运营。机场、邮轮及私人接送业务使用同一批司机、车辆和预订系统。",
+    "p2": "您的预订确认和收据目前以 Book A Ride NZ 的名义发出，本站显示的 Google 评价也是 Book A Ride NZ 的评价。",
     "p3": "我们建立这个网站只为做好一件事：让奥克兰的每个人都能快速看到清晰的接送价格，并轻松完成预订。",
     "imgAlt": "{{brand}} 车队的丰田 Hiace 高顶面包车",
     "valuesEyebrow": "我们的做法",
@@ -120,7 +120,7 @@ export default {
     "locText": "服务整个奥克兰大区、邮轮码头及霍比特村",
     "hoursTitle": "接送服务24小时不间断",
     "hoursText": "包括早班机、晚到航班和公共假日",
-    "operated": "{{brand}} 由 Book A Ride NZ 运营，因此回复和确认信均来自 Book A Ride NZ。"
+    "operated": "{{brand}} 由 Gap Digital 运营。回复和确认信目前以 Book A Ride NZ 的名义发出。"
   },
   "notFound": {
     "title": "这个页面已经离开航站楼了",
@@ -134,7 +134,7 @@ export default {
   "meta": {
     "about": {
       "title": "关于 {{brand}}",
-      "desc": "{{brand}} 是由 Book A Ride NZ 运营的奥克兰机场及私人接送服务 — 本地司机、新款丰田 Hiace 面包车，固定价格在线预订。"
+      "desc": "{{brand}} 是由 Gap Digital 运营的奥克兰机场及私人接送服务 — 本地司机、新款丰田 Hiace 面包车，固定价格在线预订。"
     },
     "contact": {
       "title": "联系 {{brand}}",
@@ -142,11 +142,11 @@ export default {
     },
     "terms": {
       "title": "条款与条件",
-      "desc": "由 Book A Ride NZ 运营的 {{brand}} 预订条款：付款、取消与退款、等候时间、行李及责任。"
+      "desc": "由 Gap Digital 运营的 {{brand}} 预订条款：付款、取消与退款、等候时间、行李及责任。"
     },
     "privacy": {
       "title": "隐私政策",
-      "desc": "{{brand}} 及其运营方 Book A Ride NZ 如何收集、使用和保护您的个人信息。"
+      "desc": "{{brand}} 及其运营方 Gap Digital 如何收集、使用和保护您的个人信息。"
     }
   }
 }

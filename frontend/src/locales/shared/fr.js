@@ -80,9 +80,9 @@ export default {
     "accent": "{{brand}}",
     "lead": "Un service de navette simple pour Auckland : véhicules privés, prix fixes et réservation en ligne en une minute environ.",
     "storyEyebrow": "Notre histoire",
-    "storyTitle": "Exploité par Book A Ride NZ",
-    "p1": "{{brand}} est géré par Book A Ride NZ, une société de transfert d'Auckland. Les chauffeurs, les véhicules et le système de réservation sont ceux des transferts aéroport, croisière et privés de Book A Ride.",
-    "p2": "C'est pourquoi votre confirmation de réservation et votre reçu proviennent de Book A Ride NZ, et pourquoi les avis Google affichés sur ce site sont ceux de Book A Ride.",
+    "storyTitle": "Exploité par Gap Digital",
+    "p1": "{{brand}} est exploité par Gap Digital. Les mêmes chauffeurs, véhicules et système de réservation assurent ses transferts aéroport, croisière et privés.",
+    "p2": "Votre confirmation de réservation et votre reçu sont actuellement envoyés au nom de Book A Ride NZ, et les avis Google affichés sur ce site sont ceux de Book A Ride NZ.",
     "p3": "Nous avons créé ce site pour bien faire une chose : donner à chacun à Auckland un prix rapide et clair pour une navette, et un moyen simple de la réserver.",
     "imgAlt": "Van Toyota Hiace à toit surélevé de la flotte {{brand}}",
     "valuesEyebrow": "Notre façon de travailler",
@@ -120,7 +120,7 @@ export default {
     "locText": "Nous desservons toute la région d'Auckland, les terminaux de croisière et Hobbiton",
     "hoursTitle": "Navettes 24h/24, 7j/7",
     "hoursText": "Vols matinaux, arrivées tardives et jours fériés compris",
-    "operated": "{{brand}} est exploité par Book A Ride NZ : les réponses et confirmations proviennent donc de Book A Ride NZ."
+    "operated": "{{brand}} est exploité par Gap Digital. Les réponses et confirmations sont actuellement envoyées au nom de Book A Ride NZ."
   },
   "notFound": {
     "title": "Cette page a quitté le terminal",
@@ -134,7 +134,7 @@ export default {
   "meta": {
     "about": {
       "title": "À propos de {{brand}}",
-      "desc": "{{brand}} est le service de navette aéroport et privée d'Auckland exploité par Book A Ride NZ : chauffeurs locaux, vans Toyota Hiace récents et réservation en ligne à prix fixes."
+      "desc": "{{brand}} est le service de navette aéroport et privée d'Auckland exploité par Gap Digital : chauffeurs locaux, vans Toyota Hiace récents et réservation en ligne à prix fixes."
     },
     "contact": {
       "title": "Contacter {{brand}}",
@@ -142,11 +142,11 @@ export default {
     },
     "terms": {
       "title": "Conditions générales",
-      "desc": "Conditions de réservation de {{brand}}, exploité par Book A Ride NZ : paiement, annulation et remboursements, temps d'attente, bagages et responsabilité."
+      "desc": "Conditions de réservation de {{brand}}, exploité par Gap Digital : paiement, annulation et remboursements, temps d'attente, bagages et responsabilité."
     },
     "privacy": {
       "title": "Politique de confidentialité",
-      "desc": "Comment {{brand}} et son exploitant Book A Ride NZ collectent, utilisent et protègent vos données personnelles."
+      "desc": "Comment {{brand}} et son exploitant Gap Digital collectent, utilisent et protègent vos données personnelles."
     }
   }
 }
