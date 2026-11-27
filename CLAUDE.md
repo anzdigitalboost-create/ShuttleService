@@ -74,6 +74,15 @@ are this site's own.
 - Area drive times in `AREAS` are off-peak guides; keep the "off-peak" wording.
 - Images: only self-hosted files in `frontend/public/images/`.
 
+## Tracking
+
+Google Tag Manager container `GTM-T3L4NNF8` is installed in
+`frontend/index.html` (head script + body noscript), added at the owner's
+request on 2026-11-27. GA4 and any ad tags are configured inside GTM, not in
+this repo. It loads on every page, including the mirrored booking pages. The
+platform repo's "no third-party tracker" rule covers the platform, and the
+owner chose not to change it; do not add GTM there without their say-so.
+
 ## Languages (i18n)
 
 Six languages: en, zh, ja, ko, es, fr. All customer-facing text lives in
